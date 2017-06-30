@@ -1,0 +1,872 @@
+[ 2017-06-02T09:53:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.023001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.109007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.077005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.077005s ]
+
+[ 2017-06-02T09:53:56+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.077004s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.077004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.322018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.322018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-02T09:54:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:18+08:00 ] 127.0.0.1 /Home/Login/checkUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_user` [ RunTime:0.1010s ]
+NOTIC: [8] Undefined index: validate D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`accounts`,`state` FROM `crm_user` WHERE `accounts` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0470s ]
+SQL: UPDATE `crm_user` SET `last_login_time`='2017-06-02 09:54:17',`last_login_ip`='127.0.0.1',`login_count`=login_count+1 WHERE `id` = 1 [ RunTime:0.0900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:18+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:19+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0960s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T09:54:27+08:00 ] 127.0.0.1 /Home/Product/index?_=1496368458509
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:28+08:00 ] 127.0.0.1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0510s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0360s ]
+
+[ 2017-06-02T09:54:29+08:00 ] 127.0.0.1 /Home/product/getDetails?id=1&_=1496368458511
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+SQL: SELECT crm_product.id,crm_product.name,crm_product.sn,crm_product.type,crm_product.pro_price,crm_product.sell_price,crm_product.unit,crm_product.inventory,crm_product.inventory_alarm,crm_product_extend.details FROM `crm_product` left JOIN crm_product_extend on crm_product.id = crm_product_extend.product_id  WHERE crm_product.id = '1' LIMIT 1   [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `crm_product_extend` [ RunTime:0.0030s ]
+SQL: SELECT `details` FROM `crm_product_extend` WHERE `product_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:35+08:00 ] 127.0.0.1 /Home/product/getDetails?id=2&_=1496368458512
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+SQL: SELECT crm_product.id,crm_product.name,crm_product.sn,crm_product.type,crm_product.pro_price,crm_product.sell_price,crm_product.unit,crm_product.inventory,crm_product.inventory_alarm,crm_product_extend.details FROM `crm_product` left JOIN crm_product_extend on crm_product.id = crm_product_extend.product_id  WHERE crm_product.id = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `crm_product_extend` [ RunTime:0.0020s ]
+SQL: SELECT `details` FROM `crm_product_extend` WHERE `product_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:05:36+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:05:37+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T10:05:39+08:00 ] 127.0.0.1 /Home/Product/index?_=1496369136743
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:05:40+08:00 ] 127.0.0.1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T10:05:42+08:00 ] 127.0.0.1 /Home/Product/alarm?_=1496369136745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:05:42+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:05:43+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T10:05:56+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:05:57+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T10:06:00+08:00 ] 127.0.0.1 /Home/Product/index?_=1496369156628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:06:01+08:00 ] 127.0.0.1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T10:10:48+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:10:49+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T10:10:54+08:00 ] 127.0.0.1 /Home/Product/alarm?_=1496369448873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:10:54+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:10:55+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-02T10:11:12+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:11:12+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:30:53+08:00 ] 127.0.0.1 /Home/Product/index?_=1496369472256
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:30:55+08:00 ] 127.0.0.1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:37:00+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:37:02+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:07+08:00 ] 127.0.0.1 /Home/Product/index?_=1496374621584
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:37:07+08:00 ] 127.0.0.1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:37:14+08:00 ] 127.0.0.1 /Home/Alarm/index?_=1496374621586
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:37:14+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:35+08:00 ] 127.0.0.1 /Home/product/getDetails?id=4&_=1496374621588
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0020s ]
+SQL: SELECT crm_product.id,crm_product.name,crm_product.sn,crm_product.type,crm_product.pro_price,crm_product.sell_price,crm_product.unit,crm_product.inventory,crm_product.inventory_alarm,crm_product_extend.details FROM `crm_product` left JOIN crm_product_extend on crm_product.id = crm_product_extend.product_id  WHERE crm_product.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `crm_product_extend` [ RunTime:0.0020s ]
+SQL: SELECT `details` FROM `crm_product_extend` WHERE `product_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:37:43+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:44+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:44+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:37:47+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:47+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:37:48+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:48+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:56+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:37:57+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:39+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:39:40+08:00 ] 127.0.0.1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:39:42+08:00 ] 127.0.0.1 /Home/Alarm/index?_=1496374779893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:39:42+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:44+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:44+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:45+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:46+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:46+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:56+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE (  `name` LIKE '%78%' OR `sn` LIKE '%78%' ) AND ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:39:59+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:39:59+08:00 ] 127.0.0.1 /Home/alarm/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE ( `inventory` <= `inventory_alarm` ) ORDER BY `create_time` desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:40:02+08:00 ] 127.0.0.1 /Home/Product/index?_=1496374779895
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:40:03+08:00 ] 127.0.0.1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+

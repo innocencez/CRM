@@ -1,0 +1,82 @@
+@charset "utf-8";
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+.easyui-dialog {
+    padding: 12px 0 0 0;
+}
+.panel-title {
+    font-size: 14px;
+    font-weight: normal;
+}
+.textbox-text {
+    background-color: #fff;
+}
+.dialog-button .l-btn-large .l-btn-text {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+    height: 35px;
+    line-height: 35px;
+    color: #666;
+    margin-left: 32px !important;
+}
+.dialog-button .l-btn-small .l-btn-text {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.tooltip-content {
+    font-size: 14px !important;
+    color: #333;
+}
+.messager-body {
+    font-size: 14px;
+    color: #666;
+}
+.form-label {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto 0 auto;
+}
+.form-table tr:hover {
+    background-color: #f3f3f3;
+}
+.form-table td {
+    padding: 5px 0;
+}
+.form-table td.label {
+    width: 95px;
+    text-align: right;
+    font-size:14px;
+    color: #666;
+}
+.form-table td.input {
+    width: auto;
+    text-align: left;
+}
+.form-table .rand {
+    font-size: 14px;
+    color: #06f;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    cursor: pointer;
+}
+.register {
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.register a {
+    text-decoration: none;
+    color: #06f;
+}
+.window-shadow {
+    box-shadow: 2px 2px 3px #666;
+}

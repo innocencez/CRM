@@ -1,0 +1,1705 @@
+[ 2017-06-07T11:13:38+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-06-07T11:13:39+08:00 ] ::1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.087004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-07T11:13:39+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T11:16:06+08:00 ] ::1 /Home/Login/checkUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_user` [ RunTime:0.1120s ]
+NOTIC: [8] Undefined index: validate D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`accounts`,`state` FROM `crm_user` WHERE `accounts` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0560s ]
+SQL: UPDATE `crm_user` SET `last_login_time`='2017-06-07 11:16:05',`last_login_ip`='0.0.0.0',`login_count`=login_count+1 WHERE `id` = 1 [ RunTime:0.1230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T11:16:06+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T11:16:07+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.1230s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T11:18:15+08:00 ] ::1 /Home/Product/index?_=1496805366385
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T11:18:16+08:00 ] ::1 /Home/product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0370s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0260s ]
+
+[ 2017-06-07T11:18:31+08:00 ] ::1 /Home/Inlib/index?_=1496805366387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T11:18:31+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0400s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T11:18:34+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T11:48:00+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T11:48:00+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-07T11:48:09+08:00 ] ::1 /Home/Inlib/index?_=1496807280317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T11:48:10+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T11:48:19+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T11:50:16+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:25:56+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:26:47+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T14:26:48+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:26:50+08:00 ] ::1 /Home/Inlib/index?_=1496816808173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T14:26:51+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0310s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:26:55+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:27:23+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:30:20+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T14:30:22+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:30:24+08:00 ] ::1 /Home/Inlib/index?_=1496817021209
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T14:30:40+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T14:30:42+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:30:44+08:00 ] ::1 /Home/Inlib/index?_=1496817041444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T14:30:44+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:30:48+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:30:55+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE (  `name` LIKE '%2017%' OR `sn` LIKE '%2017%' ) ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:30:59+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:30:59+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:31:19+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE (  `name` LIKE '%PUMA 男子短袖polo衫%' OR `sn` LIKE '%PUMA 男子短袖polo衫%' ) ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:31:27+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` WHERE (  `name` LIKE '%10003%' OR `sn` LIKE '%10003%' ) ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:31:29+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:31:29+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:48:23+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T14:48:24+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:48:26+08:00 ] ::1 /Home/Inlib/index?_=1496818103844
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T14:48:27+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:48:29+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0450s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:49:30+08:00 ] ::1 /Home/Staff/index?_=1496818103846
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T14:49:31+08:00 ] ::1 /Home/staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:49:32+08:00 ] ::1 /Home/post/getAjaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_post` [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `crm_post`  [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:49:32+08:00 ] ::1 /Home/post/getAjaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_post` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `crm_post`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:49:32+08:00 ] ::1 /Home/post/getAjaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_post` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `crm_post`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:49:59+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T14:50:00+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:01+08:00 ] ::1 /Home/Staff/index?_=1496818200046
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T14:50:02+08:00 ] ::1 /Home/staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:02+08:00 ] ::1 /Home/post/getAjaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_post` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `crm_post`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:02+08:00 ] ::1 /Home/post/getAjaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_post` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `crm_post`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:02+08:00 ] ::1 /Home/post/getAjaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_post` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `crm_post`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:07+08:00 ] ::1 /Home/Inlib/index?_=1496818200048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T14:50:08+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:10+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:13+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T14:50:19+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` WHERE (  `name` LIKE '%1007%' OR `number` LIKE '%1007%' OR `tel` LIKE '%1007%' ) ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:22+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:22+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:39+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` WHERE (  `name` LIKE '%曹%' OR `number` LIKE '%曹%' OR `tel` LIKE '%曹%' ) ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:41+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:50:41+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:51:23+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T14:51:30+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:09:08+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T15:09:09+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:09:09+08:00 ] ::1 /Home/Inlib/index?_=1496819348807
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T15:09:10+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:09:14+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:09:19+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:09:22+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:11:43+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T15:11:44+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-07T15:11:45+08:00 ] ::1 /Home/Inlib/index?_=1496819503767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T15:11:45+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:11:49+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:11:53+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:42:21+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T15:42:23+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0010s ]
+
+[ 2017-06-07T15:42:25+08:00 ] ::1 /Home/Inlib/index?_=1496821342842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T15:42:26+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC ' at line 1
+ [ SQL语句 ] : SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` crm_product on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC ' at line 1
+ [ SQL语句 ] : SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` crm_product on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC LIMIT 0,20  
+
+[ 2017-06-07T15:42:48+08:00 ] ::1 /Home/Inlib/index?_=1496821342844
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T15:42:48+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC ' at line 1
+ [ SQL语句 ] : SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` crm_product on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC ' at line 1
+ [ SQL语句 ] : SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` crm_product on crm_inlib.product_id = crm_product.id JOIN left  ORDER BY `create_time` DESC LIMIT 0,20  
+
+[ 2017-06-07T15:44:23+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T15:44:24+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:44:26+08:00 ] ::1 /Home/Inlib/index?_=1496821463725
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T15:44:27+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T15:45:23+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T15:45:24+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T15:45:27+08:00 ] ::1 /Home/Inlib/index?_=1496821523572
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T15:45:28+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:00:04+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T16:00:04+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:00:07+08:00 ] ::1 /Home/Inlib/index?_=1496822404405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T16:00:07+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:00:10+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:00:19+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:01:44+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T16:01:45+08:00 ] ::1 /Home/Index/getNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_nav` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`text`,`url`,`iconCls`,`nid` FROM `crm_nav`  [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:01:49+08:00 ] ::1 /Home/Inlib/index?_=1496822505026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T16:01:49+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:01:53+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:02:01+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:02:22+08:00 ] ::1 /Home/inlib/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 6 for Home\Model\ProductModel::register(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 19 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 52 行.
+NOTIC: [2] Missing argument 7 for Home\Model\ProductModel::register(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 19 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 52 行.
+NOTIC: [2] Missing argument 8 for Home\Model\ProductModel::register(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 19 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: unit D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 59 行.
+NOTIC: [8] Undefined variable: inventory_alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: validate D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `crm_product` (`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory_alarm`,`create_time`) VALUES ('1','200','刘备','采购','商场采购',NULL,NULL,'2017-06-07 16:02:22') [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: details D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-07T16:02:22+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:02:58+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:03:03+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T16:03:14+08:00 ] ::1 /Home/inlib/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 6 for Home\Model\ProductModel::register(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 19 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 52 行.
+NOTIC: [2] Missing argument 7 for Home\Model\ProductModel::register(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 19 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 52 行.
+NOTIC: [2] Missing argument 8 for Home\Model\ProductModel::register(), called in D:\websoft\web\CRM\App\Home\Controller\InlibController.class.php on line 19 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: unit D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 59 行.
+NOTIC: [8] Undefined variable: inventory_alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: validate D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `crm_product` (`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory_alarm`,`create_time`) VALUES ('1','200','樱桃小丸子','采购','商场采购',NULL,NULL,'2017-06-07 16:03:14') [ RunTime:0.0360s ]
+NOTIC: [8] Undefined variable: details D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-07T16:03:14+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:03:49+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:04:59+08:00 ] ::1 /Home/Product/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_product` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 10 for Home\Model\ProductModel::getList(), called in D:\websoft\web\CRM\App\Home\Controller\ProductController.class.php on line 10 and defined D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: alarm D:\websoft\web\CRM\App\Home\Model\ProductModel.class.php 第 32 行.
+SQL: SELECT `id`,`name`,`sn`,`type`,`pro_price`,`sell_price`,`unit`,`inventory`,`create_time` FROM `crm_product` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:05:05+08:00 ] ::1 /Home/Staff/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_staff` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`number`,`gender`,`post`,`id_card`,`tel`,`nation`,`entry_status`,`entry_date`,`marital_status`,`politics_status`,`education`,`create_time`,`user_id` FROM `crm_staff` ORDER BY `create_time` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_staff` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-07T16:05:22+08:00 ] ::1 /Home/inlib/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\websoft\web\CRM\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `crm_inlib` (`product_id`,`number`,`staff_name`,`mode`,`mode_explain`,`enter`,`create_time`) VALUES ('1','200','刘备','采购','商场采购','admin','2017-06-07 16:05:22') [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-07T16:05:23+08:00 ] ::1 /Home/inlib/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_inlib` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: keywords_map D:\websoft\web\CRM\App\Home\Model\InlibModel.class.php 第 18 行.
+SQL: SELECT crm_inlib.id,crm_inlib.number,crm_inlib.staff_name,crm_inlib.mode,crm_inlib.mode_explain,crm_inlib.enter,crm_inlib.create_time,crm_product.name FROM `crm_inlib` left JOIN crm_product on crm_inlib.product_id = crm_product.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_inlib` LIMIT 1   [ RunTime:0.0000s ]
+

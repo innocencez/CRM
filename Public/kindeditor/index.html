@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>kindeditor</title>
+</head>
+<body>
+
+
+<textarea name="details" id="editor_id" style="width: 600px;height: 250px;">
+
+</textarea>
+
+
+<script type="text/javascript" src="kindeditor.js"></script>
+<script type="text/javascript" src="lang/zh_CN.js"></script>
+<script type="text/javascript">
+	KindEditor.ready(function (K) {
+		window.editor = K.create('#editor_id', {
+			resizeType : 0,
+			width : '200px',
+			items : [
+				'source', '|', 
+				'formatblock', 'fontname', 'fontsize','|', 
+				'forecolor', 'hilitecolor', 'bold','italic', 'underline', 'removeformat', '|', 
+				'justifyleft', 'justifycenter', 'justifyright', '|', 'insertorderedlist', 'insertunorderedlist','|',
+				'emoticons', 'image','baidumap','|',
+				'anchor', 'link', 'unlink', '|', 
+				'fullscreen'
+			]
+		});
+	});
+</script>
+	
+</body>
+</html>
